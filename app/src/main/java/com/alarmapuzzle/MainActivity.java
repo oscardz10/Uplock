@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         mSensorManager.registerListener((SensorEventListener) this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         TextView t1 = (TextView)findViewById(R.id.steps);
-        t1.setText("Cambie jeje");
+        t1.setText("Cambio en texto");
 
     }
 
